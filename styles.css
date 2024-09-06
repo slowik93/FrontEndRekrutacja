@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+.horizontal-scroll-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 10px 0;
+}
+
+.horizontal-scroll-item {
+    display: inline-block;
+    min-width: 600px;
+    min-height: 400px;
+    margin-right: 20px;
+    background-color: rgba(196, 68, 68, 0);
+    border: 1px solid rgba(221, 221, 221, 0);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+    padding: 10px;
+}
+
+.horizontal-scroll-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: -1;
+    width: 1000px;
+    height: auto;
+    border-radius: 8px;
+}
